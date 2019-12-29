@@ -1,0 +1,10 @@
+.sablon{ width: 1520px; height: auto;margin: 30px auto;overflow: hidden; word-wrap: break-word}
+.logo{width: 100px; height: 100px; float: left;overflow: hidden;word-wrap: break-word;background: url("logo.png");border-radius: 10px}
+.banner{width: 1410px;height: 100px;float: left;margin: 0 0 0 6px;overflow: hidden; word-wrap: break-word;background: url("banner.jpg");border: 1px solid;border-radius: 8px}
+.menu{width: 1200px;height: 47px; float: left;margin: 10px 0 0 0;overflow: hidden; word-wrap: break-word;border: 1px solid;border-radius: 10px;}
+.sosyal{width: 310px;height: 47px;float: left;margin: 10px 0 0 6px;overflow: hidden; word-wrap: break-word;}
+.ortasol{width: 1200px; height: 700px;float: left; margin: 10px 0 10px 0 ;overflow: hidden; word-wrap: break-word}
+.ortasag{width: 310px; height: 700px;float: left; margin: 10px 0 10px 6px; overflow: hidden; word-wrap: break-word;border: 1px solid;border-radius: 8px}
+#menunav{;width: 1200px; height: 47px}
+.profilorta{width: 800px; height: 700px;margin:30px 0 0 520px; float: left; overflow: hidden; word-wrap: break-word}
+.hakkimizdaorta{width: 800px; height: 700px;margin:30px 0 0 350px; float: left; overflow: hidden; word-wrap: break-word}

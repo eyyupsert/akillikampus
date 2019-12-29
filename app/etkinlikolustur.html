@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Etkinlik Oluştur</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<link rel="stylesheet" href="indexstyle.css" />
+</head>
+
+<body>
+	<div class="sablon" >
+	
+		<div class="logo">  </div>
+		<div class="banner">  </div>
+		<div class="menu" > 	
+			<nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="menunav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="/anasayfa">Anasayfa</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/profile">Profil</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/etkinlikolustur">Etkinlik Oluştur</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/hakkimizda">Hakkımızda</a>
+					</li>
+				</ul>
+				
+			</nav>
+			</div> 
+		<div class="sosyal">  
+			<a href="http://www.instagram.com"><img src="instagram.png" width="46"/></a>
+			<a href="http://www.facebook.com"><img src="facebook.png" width="46" /></a>
+			<a href="http://www.twitter.com"><img src="twitter.png" width="46" /></a>
+		</div>
+		<form>
+<div style="margin-left: 50px;">
+	<div class="container">
+		<blockquote class="blockquote">
+			<h1><br><b>Etkinlik Oluştur</b></h1>
+		</blockquote>
+		<p><b>Kategoriler</b></p>
+	<div class="btn-group">
+		<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+		Zeka
+		</button>
+		<div class="dropdown-menu">
+			<a class="dropdown-item" href="#">Satranç</a>
+			<a class="dropdown-item" href="#">Monopoly</a>
+			<a class="dropdown-item" href="#">Mahjong</a>
+			<a class="dropdown-item" href="#">Scrabble</a>
+		</div>
+	</div>
+	<div class="btn-group">
+		<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" >
+		Spor
+		</button>
+		<div class="dropdown-menu">
+			<a class="dropdown-item" href="#">Voleybol</a>
+			<a class="dropdown-item" href="#">Futbol</a>
+			<a class="dropdown-item" href="#">Basketbol</a>
+			<a class="dropdown-item" href="#">Hentbol</a>
+		</div>
+	</div>
+	<div class="btn-group">
+		<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" >
+		Kategori3
+		</button>
+		<div class="dropdown-menu">
+			<a class="dropdown-item" href="#">e1</a>
+			<a class="dropdown-item" href="#">e2</a>
+			<a class="dropdown-item" href="#">e3</a>
+			<a class="dropdown-item" href="#">e4</a>
+		</div>
+	</div>
+	<br><br>
+	<p><b>Etkinlik Tarihi:</b></p>
+
+	<div class="form-group">
+                        <label for="input" class="col-sm-2 control-label" >Başlangıç:</label>
+                        	<div class="col-sm-10">
+                        		<input  type="date" class="form-control" id="input" placeholder="Başlangıç" name="baslangicTarihi"> 
+                    		</div>
+    </div>
+
+	<div class="form-group">
+                        <label  for="input" class="col-sm-2 control-label" >Bitiş:</label>
+                        	<div class="col-sm-10">
+                        		<input type="date" class="form-control" placeholder="Başlangıç" name="bitisTarihi"> 
+                    		</div>
+    </div>
+	<br><br>
+    <p><b>Yer:</b></p>
+    	<br><br>
+         <p><b>Açıklama2:</b></p>
+            <input style="height: 150px" type="text" class="form-control" placeholder= "Açıklama Ekle..." name= "aciklama"> 
+     <br><br>
+                        		
+
+     <button type="submit" class="btn btn-info" formmethod="POST" formaction="etkinlikOlustur" >KAYDET</button>
+     </form>
+            
+	</div>
+    
+</div>
+	</div>
+</body>
+
+</html>
